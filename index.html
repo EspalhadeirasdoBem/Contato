@@ -5,42 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Associação Espalhadeiras do Bem</title>
     
-    <!-- Tipografia: Montserrat e Open Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     
-    <!-- Ícones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- Tailwind CSS (Framework) -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Arquivos Externos (CSS e JS) -->
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body class="font-body text-brand-textMain bg-stone-50 antialiased">
 
-    <!-- CABEÇALHO -->
     <header id="main-header" class="bg-white shadow-sm sticky top-0 z-50 transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <div class="flex items-center gap-3">
-                <div class="w-10 h-10 bg-brand-orange rounded-full flex items-center justify-center text-white font-bold">
-                    <i class="fa-solid fa-seedling"></i>
-                </div>
+                <img src="Logo oficial.jpg" alt="Logo Associação Espalhadeiras do Bem" class="w-10 h-10 object-contain rounded-full">
                 <span class="font-heading font-bold text-xl text-brand-textMain uppercase tracking-tight">Espalhadeiras do Bem</span>
             </div>
-            <nav class="hidden md:flex gap-8">
-                <a href="#proposito" class="font-heading text-sm font-semibold hover:text-brand-orange transition-colors">Propósito</a>
-                <a href="#ecossistema" class="font-heading text-sm font-semibold hover:text-brand-orange transition-colors">Ecossistema</a>
-                <a href="#netweaving" class="font-heading text-sm font-semibold hover:text-brand-orange transition-colors">Netweaving</a>
+            
+            <nav class="hidden md:flex gap-5 lg:gap-8">
+                <a href="proposito.html" class="font-heading text-sm font-semibold hover:text-brand-orange transition-colors">Propósito</a>
+                <a href="ecossistema.html" class="font-heading text-sm font-semibold hover:text-brand-orange transition-colors">Ecossistema</a>
+                <a href="netweaving.html" class="font-heading text-sm font-semibold hover:text-brand-orange transition-colors">Netweaving</a>
+                <a href="parceiros.html" class="font-heading text-sm font-semibold hover:text-brand-orange transition-colors">Parceiros</a>
+                <a href="associados.html" class="font-heading text-sm font-semibold hover:text-brand-orange transition-colors">Associados</a>
             </nav>
-            <a href="#contato" class="hidden md:block bg-brand-orange text-white px-6 py-2 rounded-full font-heading font-bold text-sm hover:bg-orange-600 transition-colors shadow-md">Faça Parte</a>
+            
+            <a href="#contato" class="hidden lg:block bg-brand-orange text-white px-6 py-2 rounded-full font-heading font-bold text-sm hover:bg-orange-600 transition-colors shadow-md">Faça Parte</a>
         </div>
     </header>
 
-    <!-- HERO SECTION -->
     <section class="hero-bg py-24 md:py-32 border-b border-brand-earthDark/20">
         <div class="max-w-4xl mx-auto px-4 text-center">
             <h1 class="text-4xl md:text-5xl font-heading font-extrabold text-brand-textMain leading-tight mb-6">
@@ -49,13 +45,12 @@
             <p class="text-lg md:text-xl font-body text-stone-700 mb-10 max-w-2xl mx-auto">
                 Construímos uma rede de apoio estruturada para acolher, capacitar e formalizar mulheres, transformando talentos em geração de renda real.
             </p>
-            <a href="#ecossistema" class="bg-brand-textMain text-white px-8 py-3 rounded-full font-heading font-bold hover:bg-stone-700 transition-colors shadow-lg">
+            <a href="ecossistema.html" class="bg-brand-textMain text-white px-8 py-3 rounded-full font-heading font-bold hover:bg-stone-700 transition-colors shadow-lg">
                 Conheça Nossa Estrutura
             </a>
         </div>
     </section>
 
-    <!-- SEÇÃO DE PROPÓSITO -->
     <section id="proposito" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
@@ -97,7 +92,6 @@
         </div>
     </section>
 
-    <!-- ECOSSISTEMA -->
     <section id="ecossistema" class="py-20 bg-stone-50 border-t border-stone-200">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
@@ -132,7 +126,6 @@
         </div>
     </section>
 
-    <!-- NETWEAVING -->
     <section id="netweaving" class="py-24 bg-brand-textMain text-white">
         <div class="max-w-4xl mx-auto px-4 text-center">
             <i class="fa-solid fa-network-wired text-4xl text-brand-orange mb-6"></i>
@@ -143,7 +136,6 @@
         </div>
     </section>
 
-    <!-- RODAPÉ -->
     <footer id="contato" class="bg-white pt-16 pb-8 border-t border-stone-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 items-center text-center md:text-left">

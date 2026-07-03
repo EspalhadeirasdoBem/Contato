@@ -15,12 +15,14 @@ html {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
-/* Fundo da seção principal (Hero) com gradiente sobreposto */
+/* Fundo da seção principal (Hero) com gradiente sobreposto e Logo oficial */
 .hero-bg {
-    background-color: #eaddcc;
-    background-image: linear-gradient(rgba(234, 221, 204, 0.85), rgba(234, 221, 204, 0.85)), url('https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=1200&auto=format&fit=crop');
-    background-size: cover;
+    background-color: #f8f0e3; /* Fundo base um pouco mais claro */
+    /* A camada branca semi-transparente (0.85) garante que o texto fique legível enquanto a logo aparece atrás */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('Logo oficial.jpg');
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Linhas do Diagrama do Ecossistema */

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Associação Espalhadeiras do Bem</title>
+    
+    <!-- Tipografia: Montserrat e Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind CSS (Framework) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Arquivos Externos (CSS e JS) -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="font-body text-brand-textMain bg-stone-50 antialiased">
+
+    <!-- CABEÇALHO -->
+    <header id="main-header" class="bg-white shadow-sm sticky top-0 z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-brand-orange rounded-full flex items-center justify-center text-white font-bold">
+                    <i class="fa-solid fa-seedling"></i>
+                </div>
+                <span class="font-heading font-bold text-xl text-brand-textMain uppercase tracking-tight">Espalhadeiras do Bem</span>
+            </div>
+            <nav class="hidden md:flex gap-8">
+                <a href="#proposito" class="font-heading text-sm font-semibold hover:text-brand-orange transition-colors">Propósito</a>
+                <a href="#ecossistema" class="font-heading text-sm font-semibold hover:text-brand-orange transition-colors">Ecossistema</a>
+                <a href="#netweaving" class="font-heading text-sm font-semibold hover:text-brand-orange transition-colors">Netweaving</a>
+            </nav>
+            <a href="#contato" class="hidden md:block bg-brand-orange text-white px-6 py-2 rounded-full font-heading font-bold text-sm hover:bg-orange-600 transition-colors shadow-md">Faça Parte</a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero-bg py-24 md:py-32 border-b border-brand-earthDark/20">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-heading font-extrabold text-brand-textMain leading-tight mb-6">
+                Fomento ao Empreendedorismo Feminino, <span class="text-brand-orange">Conexão e Propósito.</span>
+            </h1>
+            <p class="text-lg md:text-xl font-body text-stone-700 mb-10 max-w-2xl mx-auto">
+                Construímos uma rede de apoio estruturada para acolher, capacitar e formalizar mulheres, transformando talentos em geração de renda real.
+            </p>
+            <a href="#ecossistema" class="bg-brand-textMain text-white px-8 py-3 rounded-full font-heading font-bold hover:bg-stone-700 transition-colors shadow-lg">
+                Conheça Nossa Estrutura
+            </a>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE PROPÓSITO -->
+    <section id="proposito" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-heading font-extrabold text-brand-textMain">A Nossa Essência</h2>
+                <div class="w-16 h-1 bg-brand-orange mx-auto mt-4 rounded"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="card-hover bg-brand-earthLight/30 rounded-2xl p-8 border border-brand-earthLight text-center relative overflow-hidden">
+                    <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-brand-orange mx-auto mb-6 shadow-sm">
+                        <i class="fa-solid fa-bullseye text-xl"></i>
+                    </div>
+                    <h3 class="font-heading font-bold text-xl mb-4">Missão</h3>
+                    <p class="text-sm leading-relaxed text-stone-600">
+                        Proporcionar recomeços por meio da construção de uma rede de apoio que visa acolher, capacitar e formar mulheres que desejam empreender.
+                    </p>
+                </div>
+
+                <div class="card-hover bg-brand-earthLight/30 rounded-2xl p-8 border border-brand-earthLight text-center relative overflow-hidden">
+                    <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-brand-orange mx-auto mb-6 shadow-sm">
+                        <i class="fa-solid fa-eye text-xl"></i>
+                    </div>
+                    <h3 class="font-heading font-bold text-xl mb-4">Visão</h3>
+                    <p class="text-sm leading-relaxed text-stone-600">
+                        Ser referência em projeto que potencializa talentos e promove o reconhecimento e autoconfiança de mulheres através do comércio justo.
+                    </p>
+                </div>
+
+                <div class="card-hover bg-brand-earthLight/30 rounded-2xl p-8 border border-brand-earthLight text-center relative overflow-hidden">
+                    <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-brand-orange mx-auto mb-6 shadow-sm">
+                        <i class="fa-solid fa-heart text-xl"></i>
+                    </div>
+                    <h3 class="font-heading font-bold text-xl mb-4">Valores</h3>
+                    <p class="text-sm leading-relaxed text-stone-600">
+                        Ética, Beleza, Cultura, Arte, Empatia, Propósito, Impacto Social, Perseverança e Conexão constante.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ECOSSISTEMA -->
+    <section id="ecossistema" class="py-20 bg-stone-50 border-t border-stone-200">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-heading font-extrabold text-brand-textMain">Como Atuamos</h2>
+                <p class="mt-4 text-stone-600 font-medium">Um ecossistema integrado de ensino, produção e mercado.</p>
+            </div>
+
+            <div class="flex flex-col md:flex-row items-center justify-center gap-4">
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-stone-100 w-full md:w-64 text-center card-hover z-10">
+                    <h4 class="font-heading font-bold text-brand-lupe text-lg mb-2">LUPE</h4>
+                    <p class="text-xs text-stone-500 mb-3">Laboratório Universitários Profissionais Estudantes</p>
+                    <p class="text-sm text-stone-700">Formação, capacitação técnica, design e assessoria universitária.</p>
+                </div>
+
+                <div class="linha-conexao"></div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-brand-orange w-full md:w-80 text-center z-20 relative">
+                    <h3 class="font-heading font-extrabold text-brand-textMain text-xl mb-2">Associação<br>Espalhadeiras do Bem</h3>
+                    <p class="text-sm text-stone-600 font-medium bg-brand-earthLight/20 py-2 px-4 rounded-lg">
+                        Núcleo de apoio, ensino para empreender e formalização (MEI/CNPJ).
+                    </p>
+                </div>
+
+                <div class="linha-conexao"></div>
+
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-stone-100 w-full md:w-64 text-center card-hover z-10">
+                    <h4 class="font-heading font-bold text-yellow-600 text-lg mb-2">Projeto GIL</h4>
+                    <p class="text-xs text-stone-500 mb-3">Girassol Instituto de Labores</p>
+                    <p class="text-sm text-stone-700">Produção artesanal, curadoria de valor e geração de renda para o 3º Setor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NETWEAVING -->
+    <section id="netweaving" class="py-24 bg-brand-textMain text-white">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <i class="fa-solid fa-network-wired text-4xl text-brand-orange mb-6"></i>
+            <h2 class="text-3xl font-heading font-extrabold mb-8">A Filosofia do Netweaving</h2>
+            <blockquote class="text-xl md:text-2xl font-body italic text-stone-300 leading-relaxed mb-8 border-l-4 border-brand-orange pl-6 text-left md:text-center md:border-l-0">
+                "Promover valor sem esperar nada em troca, construindo relacionamentos estruturados onde todos prosperam. O princípio de fazer o bem pelo bem."
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer id="contato" class="bg-white pt-16 pb-8 border-t border-stone-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 items-center text-center md:text-left">
+                <div>
+                    <h4 class="font-heading font-bold text-lg text-brand-textMain mb-2">Espalhadeiras do Bem</h4>
+                    <p class="text-sm text-stone-500">Desenvolvendo a autonomia e o comércio justo local.</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="text-xs font-bold text-stone-400 uppercase tracking-widest mb-3">Chancela Institucional</span>
+                    <div class="flex gap-4">
+                        <span class="bg-stone-100 text-stone-600 px-3 py-1 rounded text-xs font-bold">UEL</span>
+                        <span class="bg-stone-100 text-stone-600 px-3 py-1 rounded text-xs font-bold">PROEX</span>
+                        <span class="bg-stone-100 text-stone-600 px-3 py-1 rounded text-xs font-bold">AINTEC</span>
+                    </div>
+                </div>
+                <div class="flex justify-center md:justify-end gap-4">
+                    <a href="#" class="w-10 h-10 bg-stone-100 text-stone-600 rounded-full flex items-center justify-center hover:bg-brand-orange hover:text-white transition-colors">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 bg-stone-100 text-stone-600 rounded-full flex items-center justify-center hover:bg-brand-orange hover:text-white transition-colors">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="text-center text-xs text-stone-400 border-t border-stone-100 pt-8">
+                &copy; 2026 Associação Espalhadeiras do Bem. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

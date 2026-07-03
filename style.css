@@ -1,0 +1,3 @@
+/* Estilização focada em tons terrosos e tipografia limpa */
+body { font-family: 'Montserrat', sans-serif; }
+.btn-primary { background-color: #f27c22; color: white; padding: 10px 20px; border-radius: 999px; }

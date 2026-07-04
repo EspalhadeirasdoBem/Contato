@@ -21,7 +21,7 @@ html {
     /* A URL agora aponta para o arquivo com o nome correto para servidores web */
     background-image: linear-gradient(rgba(248, 240, 227, 0.88), rgba(248, 240, 227, 0.88)), url('logo-oficial.jpg');
     /* Usamos 'auto 80%' para que o logo ocupe boa parte do fundo, mas sem cortar as bordas */
-    background-size: auto 80%; 
+    background-size: auto 140%; 
     background-position: center;
     background-repeat: no-repeat;
 }
